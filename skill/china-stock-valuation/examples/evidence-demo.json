@@ -1,0 +1,13 @@
+{
+  "note": "Completely fictional metadata, not real web source verification",
+  "claims": [
+    {"id":"demo_revenue", "claim_type":"financial", "value_type":"numeric", "value":110, "unit":"RMB100m", "period_end":"2025-12-31", "sources":[
+      {"kind":"official_filing","origin_id":"fictional_filing_2025","publisher":"虚构交易所文件","url":"https://www.sse.com.cn/","published_at":"2026-04-20","period_end":"2025-12-31","unit":"RMB100m","value":110},
+      {"kind":"structured_vendor","origin_id":"fictional_vendor_table","publisher":"虚构数据商","url":"https://www.cninfo.com.cn/","published_at":"2026-04-21","period_end":"2025-12-31","unit":"RMB100m","value":110}
+    ]},
+    {"id":"recycled_rumor", "claim_type":"industry", "value_type":"text", "value":"某产能大幅扩张（虚构）", "sources":[
+      {"kind":"media","origin_id":"single_original_rumor","url":"https://example.com/a","published_at":"2026-10-24"},
+      {"kind":"media","origin_id":"single_original_rumor","url":"https://example.net/b","published_at":"2026-10-25"}
+    ]}
+  ]
+}

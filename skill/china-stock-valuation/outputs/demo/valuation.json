@@ -1,0 +1,161 @@
+{
+  "company": {
+    "ticker": "DEMO000",
+    "name": "示例研究公司（虚构）",
+    "exchange": "DEMO",
+    "close_price_rmb": 20.5,
+    "price_date": "2026-10-23（示例日期，并非真实报价）",
+    "shares_100m": 12.0
+  },
+  "business_type": "nonfinancial",
+  "valuation_as_of": "2026-10-26",
+  "units": {
+    "money": "RMB 100m",
+    "price": "RMB/share"
+  },
+  "current_market_cap_100m": 246.0,
+  "current_pe": 18.64,
+  "current_pb": 2.51,
+  "cases": {
+    "bear": {
+      "equity_value_100m": 142.504,
+      "per_share_rmb": 11.681,
+      "upside_pct": -43.02,
+      "methods": {
+        "pe": 128.8,
+        "pb": 156.8,
+        "ev_ebitda": 166.0,
+        "sotp": 211.0,
+        "dcf": 99.248
+      },
+      "weights_applied": {
+        "pe": 0.25,
+        "pb": 0.1,
+        "ev_ebitda": 0.2,
+        "sotp": 0.15,
+        "dcf": 0.3
+      },
+      "shares_100m": 12.2,
+      "confidence_flag": "MULTI_METHOD_MODEL"
+    },
+    "base": {
+      "equity_value_100m": 242.425,
+      "per_share_rmb": 20.202,
+      "upside_pct": -1.45,
+      "methods": {
+        "pe": 237.6,
+        "pb": 196.0,
+        "ev_ebitda": 268.0,
+        "sotp": 273.0,
+        "dcf": 229.583
+      },
+      "weights_applied": {
+        "pe": 0.25,
+        "pb": 0.1,
+        "ev_ebitda": 0.2,
+        "sotp": 0.15,
+        "dcf": 0.3
+      },
+      "shares_100m": 12.0,
+      "confidence_flag": "MULTI_METHOD_MODEL"
+    },
+    "bull": {
+      "equity_value_100m": 375.489,
+      "per_share_rmb": 31.291,
+      "upside_pct": 52.64,
+      "methods": {
+        "pe": 352.0,
+        "pb": 235.2,
+        "ev_ebitda": 410.0,
+        "sotp": 335.0,
+        "dcf": 439.063
+      },
+      "weights_applied": {
+        "pe": 0.25,
+        "pb": 0.1,
+        "ev_ebitda": 0.2,
+        "sotp": 0.15,
+        "dcf": 0.3
+      },
+      "shares_100m": 12.0,
+      "confidence_flag": "MULTI_METHOD_MODEL"
+    }
+  },
+  "warnings": [],
+  "scenario_assumptions": {
+    "bear": "虚构条件：利润降至9.2亿元、EBITDA 16亿元、FCFF 9亿元、净现金6亿元、增发至12.2亿股，贴现率11.5%。",
+    "base": "虚构条件：利润13.2亿元、EBITDA 20亿元、FCFF 12亿元、净现金8亿元、股本12亿股，贴现率9.5%。",
+    "bull": "虚构条件：利润16亿元、EBITDA 25亿元、FCFF 15亿元、净现金10亿元、股本12亿股，贴现率8.5%。"
+  },
+  "scenario_forecasts": {
+    "bear": {
+      "normalized_parent_profit_100m": 9.2,
+      "normalized_ebitda_100m": 16,
+      "normalized_fcff_100m": 9,
+      "net_debt_100m": -6,
+      "shares_100m": 12.2
+    },
+    "base": {
+      "normalized_parent_profit_100m": 13.2,
+      "normalized_ebitda_100m": 20,
+      "normalized_fcff_100m": 12,
+      "net_debt_100m": -8,
+      "shares_100m": 12
+    },
+    "bull": {
+      "normalized_parent_profit_100m": 16.0,
+      "normalized_ebitda_100m": 25,
+      "normalized_fcff_100m": 15,
+      "net_debt_100m": -10,
+      "shares_100m": 12
+    }
+  },
+  "scenario_probabilities": null,
+  "evidence_status": "UNRESOLVED_SOURCE_REVIEW",
+  "source_coverage": "DEMO ONLY — ALL DATA, COMPANIES, PEERS, PRICES AND ASSUMPTIONS BELOW ARE FICTIONAL",
+  "disclaimer": "Assumption-driven model; no official filing or source content verified by this calculator.",
+  "evidence_audit": {
+    "assessment_type": "offline_metadata_consistency_only",
+    "claims": [
+      {
+        "claim_id": "demo_revenue",
+        "status": "METADATA_CORROBORATED",
+        "independent_origin_count": 2,
+        "primary_source_present": true,
+        "comparison": [
+          {
+            "origin_id": "fictional_filing_2025",
+            "value": 110,
+            "relative_difference": 0.0
+          },
+          {
+            "origin_id": "fictional_vendor_table",
+            "value": 110,
+            "relative_difference": 0.0
+          }
+        ],
+        "warnings": [],
+        "caveat": "Metadata-only checking; URLs and facts must be opened/verified independently. Never auto-certify claims."
+      },
+      {
+        "claim_id": "recycled_rumor",
+        "status": "SINGLE_ORIGIN",
+        "independent_origin_count": 1,
+        "primary_source_present": false,
+        "comparison": [],
+        "warnings": [
+          "Less than two independently originated sources"
+        ],
+        "caveat": "Metadata-only checking; URLs and facts must be opened/verified independently. Never auto-certify claims."
+      }
+    ],
+    "summary": {
+      "total": 2,
+      "metadata_corroborated": 1,
+      "requires_review": 1
+    },
+    "not_ready_claim_ids": [
+      "recycled_rumor"
+    ]
+  }
+}

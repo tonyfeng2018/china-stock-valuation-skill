@@ -1,0 +1,13 @@
+{
+  "provider": "kimi-cn",
+  "endpoint": "https://api.moonshot.cn/v1/chat/completions",
+  "model": "kimi-k2.5",
+  "source_claims": 2,
+  "valuation_scenarios": [
+    "bear",
+    "base",
+    "bull"
+  ],
+  "request_characters": 4902,
+  "status": "DRY_RUN_NO_EXTERNAL_API_CALL"
+}

@@ -1,0 +1,8 @@
+{
+  "old_as_of": "2026-10-26",
+  "new_as_of": "2026-10-26",
+  "ticker": "DEMO000",
+  "warning": "Simple threshold detector only; metrics must have equivalent accounting periods and definitions.",
+  "alerts": [],
+  "count": 0
+}

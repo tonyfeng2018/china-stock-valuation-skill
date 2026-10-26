@@ -1,0 +1,204 @@
+{
+  "is_fictional_example": true,
+  "as_of": "2026-10-26",
+  "business_type": "nonfinancial",
+  "industry": "虚构消费制造行业（完全演示）",
+  "source_coverage": "DEMO ONLY — ALL DATA, COMPANIES, PEERS, PRICES AND ASSUMPTIONS BELOW ARE FICTIONAL",
+  "company": {
+    "ticker": "DEMO000",
+    "name": "示例研究公司（虚构）",
+    "exchange": "DEMO",
+    "close_price_rmb": 20.5,
+    "price_date": "2026-10-23（示例日期，并非真实报价）",
+    "shares_100m": 12.0
+  },
+  "financials": {
+    "revenue_100m": 110.0,
+    "normalized_parent_profit_100m": 13.2,
+    "parent_equity_100m": 98.0,
+    "normalized_fcff_100m": 12.0,
+    "net_debt_100m": -8.0,
+    "revenue_growth_yoy_pct": 12.0,
+    "adjusted_profit_growth_yoy_pct": 10.0,
+    "gross_margin_pct": 35.0,
+    "normalized_ebitda_100m": 20.0,
+    "minority_interest_100m": 0.0,
+    "other_senior_claims_100m": 0.0
+  },
+  "analysis": {
+    "fair_value_base_rmb": 21.4
+  },
+  "assumptions": {
+    "pe": {
+      "bear": 14,
+      "base": 18,
+      "bull": 22
+    },
+    "pb": {
+      "bear": 1.6,
+      "base": 2.0,
+      "bull": 2.4
+    },
+    "dcf": {
+      "years": 5,
+      "bear": {
+        "growth": 0.02,
+        "wacc": 0.115,
+        "terminal_growth": 0.015
+      },
+      "base": {
+        "growth": 0.08,
+        "wacc": 0.095,
+        "terminal_growth": 0.025
+      },
+      "bull": {
+        "growth": 0.13,
+        "wacc": 0.085,
+        "terminal_growth": 0.03
+      }
+    },
+    "weights": {
+      "pe": 0.25,
+      "pb": 0.1,
+      "dcf": 0.3,
+      "ev_ebitda": 0.2,
+      "sotp": 0.15
+    },
+    "ev_ebitda": {
+      "bear": 10,
+      "base": 13,
+      "bull": 16
+    },
+    "sotp": {
+      "bear": {
+        "segments": [
+          {
+            "name": "虚构部门A",
+            "enterprise_value_100m": 165
+          },
+          {
+            "name": "虚构部门B",
+            "enterprise_value_100m": 40
+          }
+        ],
+        "unallocated_adjustment_100m": 0
+      },
+      "base": {
+        "segments": [
+          {
+            "name": "虚构部门A",
+            "enterprise_value_100m": 210
+          },
+          {
+            "name": "虚构部门B",
+            "enterprise_value_100m": 55
+          }
+        ]
+      },
+      "bull": {
+        "segments": [
+          {
+            "name": "虚构部门A",
+            "enterprise_value_100m": 255
+          },
+          {
+            "name": "虚构部门B",
+            "enterprise_value_100m": 70
+          }
+        ]
+      }
+    },
+    "scenario_drivers": {
+      "bear": "虚构条件：利润降至9.2亿元、EBITDA 16亿元、FCFF 9亿元、净现金6亿元、增发至12.2亿股，贴现率11.5%。",
+      "base": "虚构条件：利润13.2亿元、EBITDA 20亿元、FCFF 12亿元、净现金8亿元、股本12亿股，贴现率9.5%。",
+      "bull": "虚构条件：利润16亿元、EBITDA 25亿元、FCFF 15亿元、净现金10亿元、股本12亿股，贴现率8.5%。"
+    },
+    "scenario_forecasts": {
+      "bear": {
+        "normalized_parent_profit_100m": 9.2,
+        "normalized_ebitda_100m": 16,
+        "normalized_fcff_100m": 9,
+        "net_debt_100m": -6,
+        "shares_100m": 12.2
+      },
+      "base": {
+        "normalized_parent_profit_100m": 13.2,
+        "normalized_ebitda_100m": 20,
+        "normalized_fcff_100m": 12,
+        "net_debt_100m": -8,
+        "shares_100m": 12
+      },
+      "bull": {
+        "normalized_parent_profit_100m": 16.0,
+        "normalized_ebitda_100m": 25,
+        "normalized_fcff_100m": 15,
+        "net_debt_100m": -10,
+        "shares_100m": 12
+      }
+    }
+  },
+  "history": [
+    {
+      "year": 2022,
+      "revenue_100m": 72,
+      "parent_profit_100m": 7.8,
+      "operating_cf_100m": 10,
+      "capex_100m": 4
+    },
+    {
+      "year": 2023,
+      "revenue_100m": 85,
+      "parent_profit_100m": 9.5,
+      "operating_cf_100m": 13,
+      "capex_100m": 5
+    },
+    {
+      "year": 2024,
+      "revenue_100m": 98,
+      "parent_profit_100m": 11.6,
+      "operating_cf_100m": 15,
+      "capex_100m": 5.8
+    },
+    {
+      "year": 2025,
+      "revenue_100m": 110,
+      "parent_profit_100m": 13.2,
+      "operating_cf_100m": 18,
+      "capex_100m": 6.2
+    }
+  ],
+  "peers": [
+    {
+      "name": "可比公司甲（虚构）",
+      "growth_pct": 9.5,
+      "roe_pct": 14.2,
+      "pe": 17.8,
+      "pb": 2.4,
+      "source_url": "DEMO"
+    },
+    {
+      "name": "可比公司乙（虚构）",
+      "growth_pct": 14.5,
+      "roe_pct": 17.1,
+      "pe": 20.2,
+      "pb": 2.9,
+      "source_url": "DEMO"
+    },
+    {
+      "name": "可比公司丙（虚构）",
+      "growth_pct": 6.3,
+      "roe_pct": 11.5,
+      "pe": 14.4,
+      "pb": 1.8,
+      "source_url": "DEMO"
+    }
+  ],
+  "sources": [
+    {
+      "title": "所有字段均为人工编造的演示数据，不存在可核实的原始财报",
+      "url": "https://www.cninfo.com.cn/",
+      "published_at": "无（演示）"
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,238 @@
+{
+  "is_fictional_example": false,
+  "as_of": "2026-10-26",
+  "business_type": "nonfinancial",
+  "industry": "智能包装设备、液态食品灌装线、工业机器人（包装专用设备为主）",
+  "source_coverage": "2025年报与2026H1正式披露原文、两个行情二级源、三个公司同行半年报、正式政策；2026Q3未披露；机器人收入未单列。模型预测为研究假设。",
+  "company": {
+    "ticker": "603901.SH",
+    "name": "杭州永创智能设备股份有限公司（永创智能）",
+    "exchange": "SSE",
+    "close_price_rmb": 10.63,
+    "price_date": "2026-10-26（行情快照；交易所终收待独立核验）",
+    "shares_100m": 5.76755597
+  },
+  "financials": {
+    "revenue_100m": 39.8886031153,
+    "normalized_parent_profit_100m": 2.023519,
+    "parent_equity_100m": 35.9023465574,
+    "normalized_fcff_100m": 3.5,
+    "net_debt_100m": -0.389,
+    "revenue_growth_yoy_pct": 11.25,
+    "adjusted_profit_growth_yoy_pct": 88.46,
+    "gross_margin_pct": 27.28,
+    "normalized_ebitda_100m": 5.3,
+    "minority_interest_100m": 0.0,
+    "other_senior_claims_100m": 0.0
+  },
+  "analysis": {
+    "fair_value_base_rmb": 10.0
+  },
+  "assumptions": {
+    "pe": {
+      "bear": 15,
+      "base": 21,
+      "bull": 27
+    },
+    "pb": {
+      "bear": 1.0,
+      "base": 1.65,
+      "bull": 2.4
+    },
+    "ev_ebitda": {
+      "bear": 8,
+      "base": 11,
+      "bull": 14
+    },
+    "dcf": {
+      "years": 5,
+      "bear": {
+        "growth": 0.02,
+        "wacc": 0.115,
+        "terminal_growth": 0.015
+      },
+      "base": {
+        "growth": 0.075,
+        "wacc": 0.095,
+        "terminal_growth": 0.023
+      },
+      "bull": {
+        "growth": 0.115,
+        "wacc": 0.087,
+        "terminal_growth": 0.025
+      }
+    },
+    "weights": {
+      "pe": 0.45,
+      "pb": 0.15,
+      "ev_ebitda": 0.2,
+      "dcf": 0.2
+    },
+    "scenario_forecasts": {
+      "bear": {
+        "normalized_parent_profit_100m": 1.9,
+        "normalized_ebitda_100m": 4.0,
+        "normalized_fcff_100m": 2.0,
+        "parent_equity_100m": 35.9,
+        "net_debt_100m": -0.389,
+        "shares_100m": 5.76755597
+      },
+      "base": {
+        "normalized_parent_profit_100m": 3.0,
+        "normalized_ebitda_100m": 5.3,
+        "normalized_fcff_100m": 3.5,
+        "parent_equity_100m": 35.9,
+        "net_debt_100m": -0.389,
+        "shares_100m": 5.76755597
+      },
+      "bull": {
+        "normalized_parent_profit_100m": 4.2,
+        "normalized_ebitda_100m": 7.0,
+        "normalized_fcff_100m": 4.7,
+        "parent_equity_100m": 35.9,
+        "net_debt_100m": -0.389,
+        "shares_100m": 5.76755597
+      }
+    },
+    "scenario_drivers": {
+      "bear": "2027年压力情景：营业收入约42亿元、归母净利1.9亿元（净利率4.5%）；设备订单增速放缓、毛利率回落；机器人未形成规模收入。PE15倍，PB1.0倍，EBITDA4.0亿元、EV/EBITDA8倍；标准化FCFF首年2.0亿元、增长2%、WACC11.5%。均为模型假设。",
+      "base": "2027年基准情景：营业收入约46亿元、归母净利3.0亿元（净利率6.5%）；饮料/乳品整线稳健交付，费用率改善维持，机器人贡献暂不赋予独立大额溢价。PE21倍，PB1.65倍，EBITDA5.3亿元、EV/EBITDA11倍；标准化FCFF首年3.5亿元、增长7.5%、WACC9.5%。均为模型假设。",
+      "bull": "2027年乐观情景：收入约52亿元、归母净利4.2亿元（净利率8.1%）；智能产线订单加速、设备毛利改善，机器人业务出现可验证批量订单。PE27倍，PB2.4倍，EBITDA7.0亿元、EV/EBITDA14倍；标准化FCFF首年4.7亿元、增长11.5%、WACC8.7%。未经订单收入验证，不可当成已经实现。"
+    }
+  },
+  "history": [
+    {
+      "year": 2023,
+      "revenue_100m": 31.4597925087,
+      "parent_profit_100m": 0.7106300451,
+      "operating_cf_100m": 2.1504107051,
+      "capex_100m": null
+    },
+    {
+      "year": 2024,
+      "revenue_100m": 35.6673024969,
+      "parent_profit_100m": 0.1558000904,
+      "operating_cf_100m": 2.6108229664,
+      "capex_100m": 3.75040465
+    },
+    {
+      "year": 2025,
+      "revenue_100m": 39.8886031153,
+      "parent_profit_100m": 1.3723923445,
+      "operating_cf_100m": 6.4317155747,
+      "capex_100m": 1.4457367451
+    },
+    {
+      "year": "2026H1",
+      "revenue_100m": 21.1576483226,
+      "parent_profit_100m": 1.4658922996,
+      "operating_cf_100m": 1.6194096893,
+      "capex_100m": 1.0316662672
+    }
+  ],
+  "peers": [
+    {
+      "name": "新美星 300509",
+      "growth_pct": 22.06,
+      "roe_pct": 8.03,
+      "pe": 19.05,
+      "pb": 3.56,
+      "source_url": "https://www.zhunshangshi.com/stock/300509/ [2026-10-23; PE TTM]"
+    },
+    {
+      "name": "达意隆 002209",
+      "growth_pct": 17.01,
+      "roe_pct": "未同口径核实",
+      "pe": 16.68,
+      "pb": 2.65,
+      "source_url": "https://www.zhunshangshi.com/stock/002209/ [2026-10-15; PE TTM]"
+    },
+    {
+      "name": "中亚股份 300512",
+      "growth_pct": 20.56,
+      "roe_pct": "未同口径核实",
+      "pe": 98.44,
+      "pb": 1.76,
+      "source_url": "https://www.zhunshangshi.com/stock/300512/ [2026-10-21; PE TTM; 离群]"
+    }
+  ],
+  "sources": [
+    {
+      "title": "2026半年报 · 公司披露全文（8月28日）",
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12557015&stockid=603901",
+      "published_at": "2026-08-28"
+    },
+    {
+      "title": "2025年度报告 · 公司披露全文",
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12144951&stockid=603901",
+      "published_at": "2026-04"
+    },
+    {
+      "title": "2026年10月17日公告：康创投资增持结果 · 上海证券报原文",
+      "url": "https://paper.cnstock.com/html/2026-10/17/content_2278125.htm",
+      "published_at": "2026-10-17"
+    },
+    {
+      "title": "10月26日行情快照 · 准上市",
+      "url": "https://www.zhunshangshi.com/hq/detail.php?ts_code=603901.SH",
+      "published_at": "2026-10-26"
+    },
+    {
+      "title": "10月26日盘中涨停价格 · 新浪",
+      "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-10-26/doc-iniwprzs2432270.shtml",
+      "published_at": "2026-10-26"
+    },
+    {
+      "title": "设备更新政策 · 国家发改委正式文件",
+      "url": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20582",
+      "published_at": "2025-12-29"
+    },
+    {
+      "title": "具身智能场景专项行动 · 工信部正式文件",
+      "url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_f291ccd3da4c47ce95741de63cc088e6.html",
+      "published_at": "2026-06-08"
+    },
+    {
+      "title": "2026半年报 · 新美星",
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12525940&stockid=300509",
+      "published_at": "2026-08"
+    },
+    {
+      "title": "2026半年报 · 达意隆",
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12512969&stockid=002209",
+      "published_at": "2026-08"
+    },
+    {
+      "title": "2026半年报 · 中亚股份",
+      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12548977&stockid=300512",
+      "published_at": "2026-08"
+    },
+    {
+      "title": "五家机构盈利预测（2026:2.70亿元、2027:3.25亿元） · 同花顺汇编，非公司承诺",
+      "url": "https://basic.10jqka.com.cn/603901/worth.html",
+      "published_at": "2026-10-23（页面汇总截至日）"
+    },
+    {
+      "title": "新美星2026Q3已披露公告（营业收入增长、单Q3净利润下降）",
+      "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12653118&stockid=300509",
+      "published_at": "2026-10-22"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-10-26",
+      "type": "market",
+      "title": "连续第2日涨停，机器人概念资金炒作；并无已核实重大订单公告"
+    },
+    {
+      "date": "2026-10-17",
+      "type": "insider",
+      "title": "控股股东一致行动人完成增持115.05万股，约1211.84万元"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "earnings",
+      "title": "计划披露三季报（未披露）"
+    }
+  ]
+}

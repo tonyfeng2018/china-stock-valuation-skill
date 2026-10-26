@@ -1,0 +1,13 @@
+{
+  "provider": "deepseek",
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "model": "deepseek-flash",
+  "source_claims": 2,
+  "valuation_scenarios": [
+    "bear",
+    "base",
+    "bull"
+  ],
+  "request_characters": 4907,
+  "status": "DRY_RUN_NO_EXTERNAL_API_CALL"
+}

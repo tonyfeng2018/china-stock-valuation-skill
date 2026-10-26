@@ -1,0 +1,9 @@
+China Stock Valuation Skill v1.1 validation summary (2026-10-26)
+1) unittest discover -s tests -v: 14 tests passed.
+2) check_evidence demo: 2 claims, 1 metadata corroborated, 1 unresolved single-origin media reprint.
+3) --strict-evidence on unresolved example: blocked with exit status 1; no report created.
+4) run_analysis demo: 5 model methods and three scenarios produced with dilution and scenario-dependent earnings.
+5) DeepSeek dry-run: request prepared, no API sent.
+6) Kimi-cn dry-run: request prepared, no API sent.
+7) Live internet data retrieval, financial PDF extraction, and paid LLM API invocation: NOT tested.
+All generated financial figures and source labels in demo are fictional.

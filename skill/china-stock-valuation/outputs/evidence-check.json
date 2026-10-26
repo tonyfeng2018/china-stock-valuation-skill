@@ -1,0 +1,44 @@
+{
+  "assessment_type": "offline_metadata_consistency_only",
+  "claims": [
+    {
+      "claim_id": "demo_revenue",
+      "status": "METADATA_CORROBORATED",
+      "independent_origin_count": 2,
+      "primary_source_present": true,
+      "comparison": [
+        {
+          "origin_id": "fictional_filing_2025",
+          "value": 110,
+          "relative_difference": 0.0
+        },
+        {
+          "origin_id": "fictional_vendor_table",
+          "value": 110,
+          "relative_difference": 0.0
+        }
+      ],
+      "warnings": [],
+      "caveat": "Metadata-only checking; URLs and facts must be opened/verified independently. Never auto-certify claims."
+    },
+    {
+      "claim_id": "recycled_rumor",
+      "status": "SINGLE_ORIGIN",
+      "independent_origin_count": 1,
+      "primary_source_present": false,
+      "comparison": [],
+      "warnings": [
+        "Less than two independently originated sources"
+      ],
+      "caveat": "Metadata-only checking; URLs and facts must be opened/verified independently. Never auto-certify claims."
+    }
+  ],
+  "summary": {
+    "total": 2,
+    "metadata_corroborated": 1,
+    "requires_review": 1
+  },
+  "not_ready_claim_ids": [
+    "recycled_rumor"
+  ]
+}

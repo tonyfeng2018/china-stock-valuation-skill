@@ -1,0 +1,210 @@
+{
+  "company": {
+    "ticker": "603901.SH",
+    "name": "杭州永创智能设备股份有限公司（永创智能）",
+    "exchange": "SSE",
+    "close_price_rmb": 10.63,
+    "price_date": "2026-10-26（行情快照；交易所终收待独立核验）",
+    "shares_100m": 5.76755597
+  },
+  "business_type": "nonfinancial",
+  "valuation_as_of": "2026-10-26",
+  "units": {
+    "money": "RMB 100m",
+    "price": "RMB/share"
+  },
+  "current_market_cap_100m": 61.309,
+  "current_pe": 30.3,
+  "current_pb": 1.71,
+  "cases": {
+    "bear": {
+      "equity_value_100m": 28.91,
+      "per_share_rmb": 5.013,
+      "upside_pct": -52.85,
+      "methods": {
+        "pe": 28.5,
+        "pb": 35.9,
+        "ev_ebitda": 32.389,
+        "dcf": 21.111
+      },
+      "weights_applied": {
+        "pe": 0.45,
+        "pb": 0.15,
+        "ev_ebitda": 0.2,
+        "dcf": 0.2
+      },
+      "shares_100m": 5.76755597,
+      "confidence_flag": "MULTI_METHOD_MODEL"
+    },
+    "base": {
+      "equity_value_100m": 61.434,
+      "per_share_rmb": 10.652,
+      "upside_pct": 0.2,
+      "methods": {
+        "pe": 63.0,
+        "pb": 59.235,
+        "ev_ebitda": 58.689,
+        "dcf": 62.304
+      },
+      "weights_applied": {
+        "pe": 0.45,
+        "pb": 0.15,
+        "ev_ebitda": 0.2,
+        "dcf": 0.2
+      },
+      "shares_100m": 5.76755597,
+      "confidence_flag": "MULTI_METHOD_MODEL"
+    },
+    "bull": {
+      "equity_value_100m": 106.433,
+      "per_share_rmb": 18.454,
+      "upside_pct": 73.6,
+      "methods": {
+        "pe": 113.4,
+        "pb": 86.16,
+        "ev_ebitda": 98.389,
+        "dcf": 114.007
+      },
+      "weights_applied": {
+        "pe": 0.45,
+        "pb": 0.15,
+        "ev_ebitda": 0.2,
+        "dcf": 0.2
+      },
+      "shares_100m": 5.76755597,
+      "confidence_flag": "MULTI_METHOD_MODEL"
+    }
+  },
+  "warnings": [],
+  "scenario_assumptions": {
+    "bear": "2027年压力情景：营业收入约42亿元、归母净利1.9亿元（净利率4.5%）；设备订单增速放缓、毛利率回落；机器人未形成规模收入。PE15倍，PB1.0倍，EBITDA4.0亿元、EV/EBITDA8倍；标准化FCFF首年2.0亿元、增长2%、WACC11.5%。均为模型假设。",
+    "base": "2027年基准情景：营业收入约46亿元、归母净利3.0亿元（净利率6.5%）；饮料/乳品整线稳健交付，费用率改善维持，机器人贡献暂不赋予独立大额溢价。PE21倍，PB1.65倍，EBITDA5.3亿元、EV/EBITDA11倍；标准化FCFF首年3.5亿元、增长7.5%、WACC9.5%。均为模型假设。",
+    "bull": "2027年乐观情景：收入约52亿元、归母净利4.2亿元（净利率8.1%）；智能产线订单加速、设备毛利改善，机器人业务出现可验证批量订单。PE27倍，PB2.4倍，EBITDA7.0亿元、EV/EBITDA14倍；标准化FCFF首年4.7亿元、增长11.5%、WACC8.7%。未经订单收入验证，不可当成已经实现。"
+  },
+  "scenario_forecasts": {
+    "bear": {
+      "normalized_parent_profit_100m": 1.9,
+      "normalized_ebitda_100m": 4.0,
+      "normalized_fcff_100m": 2.0,
+      "parent_equity_100m": 35.9,
+      "net_debt_100m": -0.389,
+      "shares_100m": 5.76755597
+    },
+    "base": {
+      "normalized_parent_profit_100m": 3.0,
+      "normalized_ebitda_100m": 5.3,
+      "normalized_fcff_100m": 3.5,
+      "parent_equity_100m": 35.9,
+      "net_debt_100m": -0.389,
+      "shares_100m": 5.76755597
+    },
+    "bull": {
+      "normalized_parent_profit_100m": 4.2,
+      "normalized_ebitda_100m": 7.0,
+      "normalized_fcff_100m": 4.7,
+      "parent_equity_100m": 35.9,
+      "net_debt_100m": -0.389,
+      "shares_100m": 5.76755597
+    }
+  },
+  "scenario_probabilities": null,
+  "evidence_status": "UNRESOLVED_SOURCE_REVIEW",
+  "source_coverage": "2025年报与2026H1正式披露原文、两个行情二级源、三个公司同行半年报、正式政策；2026Q3未披露；机器人收入未单列。模型预测为研究假设。",
+  "disclaimer": "Assumption-driven model; no official filing or source content verified by this calculator.",
+  "evidence_audit": {
+    "assessment_type": "offline_metadata_consistency_only",
+    "claims": [
+      {
+        "claim_id": "2026H1_revenue",
+        "status": "METADATA_CORROBORATED",
+        "independent_origin_count": 2,
+        "primary_source_present": true,
+        "comparison": [
+          {
+            "origin_id": "ys_2026_h1",
+            "value": 21.1576483226,
+            "relative_difference": 0.0
+          },
+          {
+            "origin_id": "independent_zss_vendor",
+            "value": 21.1576,
+            "relative_difference": 2e-06
+          }
+        ],
+        "warnings": [],
+        "caveat": "Metadata-only checking; URLs and facts must be opened/verified independently. Never auto-certify claims."
+      },
+      {
+        "claim_id": "2026H1_profit",
+        "status": "METADATA_CORROBORATED",
+        "independent_origin_count": 2,
+        "primary_source_present": true,
+        "comparison": [
+          {
+            "origin_id": "ys_2026_h1",
+            "value": 1.4658922996,
+            "relative_difference": 0.0
+          },
+          {
+            "origin_id": "china_post_research_20260908",
+            "value": 1.47,
+            "relative_difference": 0.002794
+          }
+        ],
+        "warnings": [],
+        "caveat": "Metadata-only checking; URLs and facts must be opened/verified independently. Never auto-certify claims."
+      },
+      {
+        "claim_id": "2026H1_robot_deliveries",
+        "status": "SINGLE_ORIGIN",
+        "independent_origin_count": 1,
+        "primary_source_present": true,
+        "comparison": [],
+        "warnings": [
+          "Less than two independently originated sources"
+        ],
+        "caveat": "Metadata-only checking; URLs and facts must be opened/verified independently. Never auto-certify claims."
+      },
+      {
+        "claim_id": "2026_robot_policy",
+        "status": "SINGLE_ORIGIN",
+        "independent_origin_count": 1,
+        "primary_source_present": true,
+        "comparison": [],
+        "warnings": [
+          "Less than two independently originated sources"
+        ],
+        "caveat": "Metadata-only checking; URLs and facts must be opened/verified independently. Never auto-certify claims."
+      },
+      {
+        "claim_id": "2026-10-26_market_price",
+        "status": "METADATA_CORROBORATED",
+        "independent_origin_count": 2,
+        "primary_source_present": false,
+        "comparison": [
+          {
+            "origin_id": "zss_ticks",
+            "value": 10.63,
+            "relative_difference": 0.0
+          },
+          {
+            "origin_id": "sina_ticks",
+            "value": 10.63,
+            "relative_difference": 0.0
+          }
+        ],
+        "warnings": [],
+        "caveat": "Metadata-only checking; URLs and facts must be opened/verified independently. Never auto-certify claims."
+      }
+    ],
+    "summary": {
+      "total": 5,
+      "metadata_corroborated": 3,
+      "requires_review": 2
+    },
+    "not_ready_claim_ids": [
+      "2026H1_robot_deliveries",
+      "2026_robot_policy"
+    ]
+  }
+}

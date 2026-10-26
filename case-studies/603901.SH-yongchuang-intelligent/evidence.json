@@ -1,0 +1,124 @@
+{
+  "claims": [
+    {
+      "id": "2026H1_revenue",
+      "claim_type": "financial",
+      "value_type": "numeric",
+      "value": 21.1576483226,
+      "unit": "RMB100m",
+      "period_end": "2026-06-30",
+      "sources": [
+        {
+          "kind": "official_filing",
+          "origin_id": "ys_2026_h1",
+          "publisher": "永创智能（公司披露原文）",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12557015&stockid=603901",
+          "published_at": "2026-08-28",
+          "period_end": "2026-06-30",
+          "unit": "RMB100m",
+          "value": 21.1576483226
+        },
+        {
+          "kind": "structured_vendor",
+          "origin_id": "independent_zss_vendor",
+          "publisher": "财务第三方整理",
+          "url": "https://q.stock.sohu.com/cn/603901/srgc.shtml",
+          "published_at": "未注明发布日（本次检索2026-10-26）",
+          "period_end": "2026-06-30",
+          "unit": "RMB100m",
+          "value": 21.1576
+        }
+      ]
+    },
+    {
+      "id": "2026H1_profit",
+      "claim_type": "financial",
+      "value_type": "numeric",
+      "value": 1.4658922996,
+      "unit": "RMB100m",
+      "period_end": "2026-06-30",
+      "sources": [
+        {
+          "kind": "official_filing",
+          "origin_id": "ys_2026_h1",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12557015&stockid=603901",
+          "published_at": "2026-08-28",
+          "period_end": "2026-06-30",
+          "unit": "RMB100m",
+          "value": 1.4658922996
+        },
+        {
+          "kind": "broker_research",
+          "origin_id": "china_post_research_20260908",
+          "url": "https://basic.10jqka.com.cn/603901/worth.html",
+          "published_at": "2026-09-08",
+          "period_end": "2026-06-30",
+          "unit": "RMB100m",
+          "value": 1.47
+        }
+      ]
+    },
+    {
+      "id": "2026H1_robot_deliveries",
+      "claim_type": "industry",
+      "value_type": "text",
+      "value": "机器人小批量订单、部分交付",
+      "sources": [
+        {
+          "kind": "official_filing",
+          "origin_id": "ys_2026_h1",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12557015&stockid=603901",
+          "published_at": "2026-08-28"
+        },
+        {
+          "kind": "media",
+          "origin_id": "ys_2026_h1",
+          "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-10-26/doc-iniwprzs2432270.shtml",
+          "published_at": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "2026_robot_policy",
+      "claim_type": "policy",
+      "value_type": "text",
+      "value": "工信部具身智能实景实训专项行动",
+      "sources": [
+        {
+          "kind": "government",
+          "origin_id": "miit_robot_2026_256",
+          "url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_f291ccd3da4c47ce95741de63cc088e6.html",
+          "published_at": "2026-06-08"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-26_market_price",
+      "claim_type": "market",
+      "value_type": "numeric",
+      "value": 10.63,
+      "unit": "RMB/share",
+      "period_end": "2026-10-26",
+      "sources": [
+        {
+          "kind": "structured_vendor",
+          "origin_id": "zss_ticks",
+          "url": "https://www.zhunshangshi.com/hq/detail.php?ts_code=603901.SH",
+          "published_at": "2026-10-26",
+          "period_end": "2026-10-26",
+          "unit": "RMB/share",
+          "value": 10.63
+        },
+        {
+          "kind": "media",
+          "origin_id": "sina_ticks",
+          "url": "https://finance.sina.com.cn/stock/aiassist/ydfx/2026-10-26/doc-iniwprzs2432270.shtml",
+          "published_at": "2026-10-26",
+          "period_end": "2026-10-26",
+          "unit": "RMB/share",
+          "value": 10.63
+        }
+      ]
+    }
+  ]
+}

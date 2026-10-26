@@ -1,0 +1,96 @@
+{
+  "assessment_type": "offline_metadata_consistency_only",
+  "claims": [
+    {
+      "claim_id": "2026H1_revenue",
+      "status": "METADATA_CORROBORATED",
+      "independent_origin_count": 2,
+      "primary_source_present": true,
+      "comparison": [
+        {
+          "origin_id": "ys_2026_h1",
+          "value": 21.1576483226,
+          "relative_difference": 0.0
+        },
+        {
+          "origin_id": "independent_zss_vendor",
+          "value": 21.1576,
+          "relative_difference": 2e-06
+        }
+      ],
+      "warnings": [],
+      "caveat": "Metadata-only checking; URLs and facts must be opened/verified independently. Never auto-certify claims."
+    },
+    {
+      "claim_id": "2026H1_profit",
+      "status": "METADATA_CORROBORATED",
+      "independent_origin_count": 2,
+      "primary_source_present": true,
+      "comparison": [
+        {
+          "origin_id": "ys_2026_h1",
+          "value": 1.4658922996,
+          "relative_difference": 0.0
+        },
+        {
+          "origin_id": "china_post_research_20260908",
+          "value": 1.47,
+          "relative_difference": 0.002794
+        }
+      ],
+      "warnings": [],
+      "caveat": "Metadata-only checking; URLs and facts must be opened/verified independently. Never auto-certify claims."
+    },
+    {
+      "claim_id": "2026H1_robot_deliveries",
+      "status": "SINGLE_ORIGIN",
+      "independent_origin_count": 1,
+      "primary_source_present": true,
+      "comparison": [],
+      "warnings": [
+        "Less than two independently originated sources"
+      ],
+      "caveat": "Metadata-only checking; URLs and facts must be opened/verified independently. Never auto-certify claims."
+    },
+    {
+      "claim_id": "2026_robot_policy",
+      "status": "SINGLE_ORIGIN",
+      "independent_origin_count": 1,
+      "primary_source_present": true,
+      "comparison": [],
+      "warnings": [
+        "Less than two independently originated sources"
+      ],
+      "caveat": "Metadata-only checking; URLs and facts must be opened/verified independently. Never auto-certify claims."
+    },
+    {
+      "claim_id": "2026-10-26_market_price",
+      "status": "METADATA_CORROBORATED",
+      "independent_origin_count": 2,
+      "primary_source_present": false,
+      "comparison": [
+        {
+          "origin_id": "zss_ticks",
+          "value": 10.63,
+          "relative_difference": 0.0
+        },
+        {
+          "origin_id": "sina_ticks",
+          "value": 10.63,
+          "relative_difference": 0.0
+        }
+      ],
+      "warnings": [],
+      "caveat": "Metadata-only checking; URLs and facts must be opened/verified independently. Never auto-certify claims."
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "metadata_corroborated": 3,
+    "requires_review": 2
+  },
+  "not_ready_claim_ids": [
+    "2026H1_robot_deliveries",
+    "2026_robot_policy"
+  ]
+}
